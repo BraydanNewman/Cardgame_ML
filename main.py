@@ -42,6 +42,9 @@ def main():
 
         elif choice == "Q":
             exit()
+            
+        elif choice == "N":
+            game.new_game()
 
         else:
             print("Invalid Choice")
