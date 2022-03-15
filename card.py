@@ -17,10 +17,10 @@ VALUE_CONVERSION = {
 
 
 class Card:
-    def __init__(self, value, suit):
+    def __init__(self, value, suit, visible=False):
         self.suit = suit
         self.value = value
-        self.visible = False
+        self.visible = visible
 
     def card_visible(self):
         self.visible = True
